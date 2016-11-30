@@ -7,5 +7,9 @@ namespace UMLDemo
 {
     public class Doctor : Profession
     {
+        public override void GoToWork()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

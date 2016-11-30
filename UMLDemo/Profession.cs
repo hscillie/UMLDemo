@@ -8,5 +8,10 @@ namespace UMLDemo
     public abstract class Profession
     {
         public abstract void GoToWork();
+
+        public virtual void MakeMoney()
+        {
+
+        }
     }
 }
